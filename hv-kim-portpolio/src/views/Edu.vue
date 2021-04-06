@@ -1,7 +1,7 @@
 <template>
   <div class="edu">
     <div class="title">
-      Education & Internship
+      Experience
     </div>
     <hr/>
     <div class="lvl1-wrapper">

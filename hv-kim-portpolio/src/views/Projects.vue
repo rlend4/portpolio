@@ -1,7 +1,7 @@
 <template>
     <div class='projects'>
         <div class="title">
-            Projects In Samsung SDS
+            Projects In SamsungSDS
         </div>
         <hr/>
         <div class="lvl1-wrapper">

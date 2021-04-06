@@ -64,7 +64,7 @@
                         <li class="detail-text">Web 기반 서비스로 ReactJs-SpringBoot를 활용한 솔루션 개발</li>
                         <li class="detail-text">VueJs-SpringBoot를 활용한 관리자 어드민 개발</li>
                         <li class="detail-text">PaaS 서비스를 위해 플랫폼간 Interface 개발</li>
-                        <li class="detail-text">ReactJs, VueJs, Java Spring-boot, Mybatis, Oracle, Git, Jenkins, Jira</li>
+                        <li class="detail-text">ReactJs, VueJs, Java Spring-boot, Mybatis, Mariadb/Oracle, Git, Jenkins, Jira</li>
                     </div>
                     <div class="content-text">
                         Link
@@ -89,7 +89,7 @@
                         <li class="detail-text">PoC개발 후 운영팀에 이관</li>
                         <li class="detail-text">VueJs-SpringBoot를 활용한 관리자 어드민 개발</li>
                         <li class="detail-text">사내 레거시 서비스 연계를 위한 인터페이스 개발</li>
-                        <li class="detail-text">VueJs, Java Spring-boot, Mybatis, Git, Jenkins, Jira</li>
+                        <li class="detail-text">VueJs, Java Spring-boot, Mybatis, Mariadb, Git, Jenkins, Jira</li>
                     </div>
                 </td>
                 </tr>

@@ -12,7 +12,7 @@
         <tr>
           <td>
             <div class="content-text">
-              Web Service & Solution Developer
+              <span class="content-text-title">Web Service & Solution Developer</span>
               <li class="detail-text">Front-end</li>
               <li class="detail-text">Back-end</li>
             </div>

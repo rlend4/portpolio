@@ -13,7 +13,7 @@
         <tr>
           <td>
             <div class="content-text">
-              Dual Degree
+              <span class="content-text-title">Dual Degree</span>
               <li class="detail-text">미디어학부</li>
               <li class="detail-text">경영학부</li>
             </div>
@@ -30,14 +30,14 @@
         <tr>
           <td>
             <div class="content-text">
-              인터랙티브 미디어팀
+              <span class="content-text-title">인터랙티브 미디어팀</span>
             </div>
           </td>
         </tr>
         <tr>
           <td>
             <div class="content-text">
-            IDEA BATTLE The Most Notable 수상
+              <span class="content-text-title">IDEA BATTLE The Most Notable 수상</span>
           </div>
           </td>
         </tr>

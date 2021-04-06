@@ -10,14 +10,14 @@
 
 <style>
 @font-face {
-    font-family: 'MaruBuri-Regular';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-10-21@1.0/MaruBuri-Regular.woff') format('woff');
+    font-family: 'MapoGoldenPier';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/MapoGoldenPierA.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
 #app {
   /*font-family: Avenir, Helvetica, Arial, sans-serif;*/
-  font-family: 'MaruBuri-Regular';
+  font-family: 'MapoGoldenPier';
   font-size: 1.1em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
@@ -54,6 +54,10 @@
   padding-bottom: 7px;
 }
 
+.content-text-title {
+  padding-left: 5px;
+}
+
 .table-wrapper {
   margin-left: auto;
   margin-right: auto;
@@ -67,6 +71,5 @@
 
 .detail-text {
   font-size: 12px;
-  font-style: italic;
 }
 </style>

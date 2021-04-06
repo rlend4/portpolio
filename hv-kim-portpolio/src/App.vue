@@ -3,7 +3,7 @@
     <router-link to="/">Home</router-link>
     <router-link to="/edu">Experience</router-link>
     <router-link to="/Projects">Projects</router-link>
-    <router-link to="/etc">Etc</router-link>
+    <!--<router-link to="/etc">Etc</router-link>-->
   </div>
   <router-view/>
 </template>

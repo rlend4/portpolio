@@ -1,8 +1,9 @@
 <template>
   <div id="nav">
     <router-link to="/">Home</router-link>
+    <router-link to="/edu">Education & Internship</router-link>
     <router-link to="/Projects">Projects</router-link>
-    <router-link to="/Skills">Skills</router-link>
+    <router-link to="/etc">Etc</router-link>
   </div>
   <router-view/>
 </template>
@@ -17,17 +18,47 @@
 }
 
 #nav {
-  background-color: black;
+  background-color: rgb(163, 163, 163);
   padding: 30px;
 }
 
 #nav a {
   font-weight: bold;
   color: #4c6986;
-  padding: 15px;
+  padding: 20px;
 }
 
 #nav a.router-link-exact-active {
-  color: #42b983;
+  color: #303033;
+}
+
+.title {
+  padding: 10px;
+  font-size: 30px;
+}
+
+.lvl1-wrapper {
+  padding: 22px 0px;
+}
+
+.subtitle {
+  font-size: 20px;
+  padding-bottom: 7px;
+}
+
+.table-wrapper {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.content-text {
+  font-size: 15px;
+  text-align: left;
+  padding: 3px;
+}
+
+.detail-text {
+  font-size: 12px;
+  font-style: italic;
 }
 </style>

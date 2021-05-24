@@ -1,0 +1,15 @@
+.menu-wrapper {
+    margin: 0 10px;
+}
+
+.menu-item {
+    margin: inherit;
+    color: lightgray;
+    text-decoration: none;
+}
+
+.menu-item-acitve {
+    margin: inherit;
+    color: #7ae49a;
+    text-decoration: underline;
+}

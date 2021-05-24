@@ -1,0 +1,48 @@
+ul {
+    list-style: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+
+    display: flex;
+    flex-wrap: wrap;
+}
+
+li {
+    flex-basis: 100%;
+}
+
+li.icon {
+    flex-basis: 25%;
+}
+
+@media only screen and (min-width: 640px) {
+    ul {
+        flex-direction: row;
+    }
+
+    li {
+        flex: 1;
+    }
+}
+
+nav {
+    background: rgb(173, 173, 173);
+    padding: 10px;
+}
+
+.enjoy-menu-item {
+    display: block;
+    text-align: center;
+    margin: 5px;
+    padding: 10px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.4;
+    color: lightgray;
+    background: rgb(86, 116, 224);
+}
+
+.enjoy-menu-item:hover {
+    background: rgb(141, 162, 255);
+}

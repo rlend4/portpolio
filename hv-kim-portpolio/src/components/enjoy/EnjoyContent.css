@@ -1,0 +1,238 @@
+.enjoy-content-title {
+    padding: 20px;
+    font-size: 30px;
+}
+
+.chat-content-wrapper {
+    margin: 0 20px;
+}
+
+.chat-list-wrapper {
+    margin-left: auto;
+    margin-right: auto;
+    background-color: gray;
+    max-width: 1000px;
+    max-height: 550px;
+    overflow-y: auto;
+}
+
+::-webkit-scrollbar {
+    /* 세로 스크롤 넓이 */
+    width: 8px;
+
+    /* 가로 스크롤 높이 */
+    height: 8px;
+
+    border-radius: 6px;
+    background: rgba(255, 255, 255, 0.4);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 6px;
+}
+
+
+.chat-item-wrapper-you {
+    position:relative;
+    margin: 30px;
+    width:250px;
+    min-height:40px;
+    background:pink;
+    border-radius: 10px;
+}
+.chat-item-wrapper-you:after {
+    border-top: 10px solid pink;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    content:"";
+    position:absolute;
+    bottom:-10px;
+    left:40px;
+}
+
+.chat-item-wrapper-me {
+    position:relative;
+    margin: 30px;
+    margin-left: auto;
+    width:250px;
+    min-height:40px;
+    background:skyblue;
+    border-radius: 10px;
+}
+.chat-item-wrapper-me:after {
+    border-top: 10px solid skyblue;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 0px solid transparent;
+    content:"";
+    position:absolute;
+    bottom:-10px;
+    left:190px;
+}
+
+.chat-item-text {
+    padding: 5px;
+    text-align: left;
+    font-size: 11px;
+}
+
+.chat-item-time {
+    margin-right: 10px;
+    padding-bottom: 5px;
+    text-align: right;
+    font-size: 8px;
+}
+
+.chat-input-line {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    height: 30px;
+}
+
+.chat-input-text {
+    width: 60%;
+    border: 1px solid rgb(0, 0, 141);
+    background-color: rgba(0,0,0,0);
+    color: rgb(0, 0, 141);
+    padding: 5px;
+    margin: 0 4px;
+    vertical-align: top;
+}
+
+.chat-input-text::placeholder {
+    color: rgb(0, 0, 141);
+}
+.chat-input-text:focus {
+    outline: 1px solid rgb(0, 0, 141);
+}
+
+.chat-input-button {
+    width: 12%;
+    border: 1px solid rgb(0, 0, 141);
+    background-color: rgba(0,0,0,0);
+    color: rgb(0, 0, 141);
+    padding: 5px 0;
+    margin: 0 4px;
+    vertical-align: top;
+}
+
+/* .chat-input-button:hover {
+    color:white;
+    background-color: skyblue;
+} */
+
+.button-quiz-start {
+    display: block;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    padding: 10px 5px;
+    width: 200px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.4;
+    color: black;
+    background: white;
+    border: solid 2px;
+    cursor: pointer;
+}
+
+.button-quiz-start:hover {
+    background: lightgray;
+}
+
+.quiz-modal-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    background: #000000b0; 
+    z-index: 10000;
+}
+
+.modalContainer {
+    display: flex;
+    flex-direction: column;
+    height: 500px;
+    width: 340px;
+    position: relative;
+    z-index: 200;
+    background: white;
+}
+
+.quiz-modal-header {
+    height: 30px;
+    background: white;
+}
+
+.quiz-modal-question {
+    font-size: 1.2rem;
+    height: 50%;
+    padding: 30px 20px;
+    text-align: left;
+    background: rgb(224, 224, 224);
+    word-break: break-all;
+    overflow-y: auto;
+}
+
+.quiz-modal-answer {
+    height: 50%;
+    padding: 10px;
+    background: rgb(74, 85, 117);
+    word-break: break-all;
+    overflow-y: auto;
+}
+
+.quiz-modal-button {
+    height: 50px;
+}
+.quiz-modal-button {
+    display: block;
+    text-align: center;
+    margin: 3px auto;
+    padding: 3px 5px;
+    width: 50px;
+    height: 20px;
+    text-decoration: none;
+    font-weight: bold;
+    line-height: 1.0;
+    color: black;
+    background: lightgray;
+    cursor: pointer;
+}.disabled {
+    cursor: default;
+    color: rgb(180, 180, 180);
+    background: lightgray;
+}
+
+.quiz-modal-answer div {
+    margin: 15px;
+    padding: 2px 10px;
+    text-align: left;
+    background-color: rgb(141, 128, 141);
+    cursor: pointer;
+}.quiz-modal-answer div.selected {
+    background-color: rgb(0, 177, 177);
+}
+
+.quiz-modal-result {
+    background: rgb(224, 224, 224);
+    height: 100%;
+}
+
+.quiz-modal-result-content {
+    margin-top: 180px;
+    font-size: 1.3rem;
+}

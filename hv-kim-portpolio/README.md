@@ -11,7 +11,7 @@ In the project directory, you can run:
 Runs the app in the development mode.\
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-=====================================
+- Home, Experience, Projects에서
 TextForm 사용시 pageName, contents 데이터 전달
 pageName: 페이지의 최상위 타이틀
 contents: [{
@@ -25,5 +25,4 @@ contents: [{
     ],
     link: 'full url',
     linkDesc: 'text'
-}
-]
+}]

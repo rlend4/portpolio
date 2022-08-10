@@ -2,7 +2,7 @@ import React from 'react';
 import TextForm from './TextForm';
 
 const Project = () => {
-    const homeContents = [{
+    const sdsContents = [{
         title: '삼성닷컴 한국사이트 개발/운영',
         titleDesc: '(2014.05 ~ 2018.05)',
         descTitle: 'Summary',
@@ -27,7 +27,7 @@ const Project = () => {
         linkDesc: ''
     },{
         title: 'AI 챗봇 솔루션 개발',
-        titleDesc: '(2018.06 ~ )',
+        titleDesc: '(2018.06 ~ 2021.08)',
         descTitle: 'Summary',
         descTexts: [
             'AI 솔루션(Brity Assistant) 개발', 
@@ -52,9 +52,29 @@ const Project = () => {
         ],
     }]
 
+    const netmarbleContents = [{
+        title: '마케팅 데이터 분석 플랫폼 개발',
+        titleDesc: '(2021.09 ~ )',
+        descTitle: 'Summary',
+        descTexts: [
+            '마케팅 데이터 시각화를 위한 대시보드 빌드 어플리케이션 고도화 개발', 
+            'React, TypeScript, Mobx, Storybook, Figma',
+        ],
+    },
+    {
+        title: '리포트 생성 어플리케이션 개발',
+        titleDesc: '(2022.07 ~ )',
+        descTitle: 'Summary',
+        descTexts: [
+            '데이터를 기반으로 리포트를 생성해주는 어플리케이션 개발', 
+            'React, Node.js, GCP',
+        ],
+    }]
+
     return (
         <div>
-            <TextForm pageName="Projects In Samsung SDS" contents = {homeContents}/>
+            <TextForm pageName="Projects In Samsung SDS" contents = {sdsContents}/>
+            <TextForm pageName="Projects In Netmarble" contents = {netmarbleContents}/>
         </div>
     );
 }

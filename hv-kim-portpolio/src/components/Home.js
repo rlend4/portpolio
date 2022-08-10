@@ -5,8 +5,8 @@ const Home = () => {
     const homeContents = [{
         title: '김형빈(KIM HYUNGBIN)',
         titleDesc: '',
-        descTitle: 'Web Service & Solution Developer',
-        descTexts: ['Front-end', 'Back-end'],
+        descTitle: 'Web Service & Web Solution Developer',
+        descTexts: ['Front-end'],
     }]
 
     return (
